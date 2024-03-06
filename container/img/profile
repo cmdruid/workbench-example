@@ -1,0 +1,5 @@
+## This file can be used to customize your environment.
+
+alias listen='lsof -i -P -n | grep LISTEN'
+
+alias bcli="bitcoin-cli -regtest -rpccookiefile=$DATA/bitcoin/regtest/.cookie"

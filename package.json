@@ -1,0 +1,13 @@
+{
+  "name": "workbench-example",
+  "version": "0.0.1",
+  "description": "Example workbench pattern.",
+  "author": "Christopher Scott",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "ct:install": "cd container/src && bun install",
+    "ct:start": "container/start.sh",
+    "ct:login": "docker exec -it workbench /bin/bash"
+  }
+}
